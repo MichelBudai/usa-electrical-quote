@@ -1,0 +1,24 @@
+server {
+  listen 80;
+  listen [::]:80;
+
+  # Replace with your domain (and optional www)
+  server_name example.com www.example.com;
+
+  # Static export output from Next.js (output: "export")
+  root /var/www/SITE_SLUG-static;
+  index index.html;
+
+  # Serve pre-rendered files
+  location / {
+    try_files $uri $uri/ $uri/index.html =404;
+  }
+
+  # Cache static assets aggressively
+  location ~* \.(?:css|js|mjs|map|png|jpg|jpeg|gif|svg|webp|ico|woff2?)$ {
+    expires 30d;
+    add_header Cache-Control "public, max-age=2592000, immutable";
+    try_files $uri =404;
+  }
+}
+

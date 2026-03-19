@@ -1,0 +1,1713 @@
+{
+  "alabama": {
+    "cityCount": 68,
+    "pctPre1980": 46,
+    "avgMedianYear": 1983,
+    "avgHomeownership": 59,
+    "avgMedianIncome": 65639,
+    "tierCounts": {
+      "1": 5,
+      "2": 5,
+      "3": 14,
+      "4": 44
+    },
+    "topCities": [
+      {
+        "name": "Huntsville",
+        "population": 215025
+      },
+      {
+        "name": "Birmingham",
+        "population": 200431
+      },
+      {
+        "name": "Montgomery",
+        "population": 199819
+      },
+      {
+        "name": "Mobile",
+        "population": 186316
+      },
+      {
+        "name": "Tuscaloosa",
+        "population": 105797
+      }
+    ]
+  },
+  "alaska": {
+    "cityCount": 24,
+    "pctPre1980": 13,
+    "avgMedianYear": 1989,
+    "avgHomeownership": 60,
+    "avgMedianIncome": 88785,
+    "tierCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 2,
+      "4": 21
+    },
+    "topCities": [
+      {
+        "name": "Anchorage",
+        "population": 290674
+      },
+      {
+        "name": "Fairbanks",
+        "population": 32496
+      },
+      {
+        "name": "Juneau and",
+        "population": 32108
+      },
+      {
+        "name": "Badger",
+        "population": 19182
+      },
+      {
+        "name": "Knik-Fairview",
+        "population": 18619
+      }
+    ]
+  },
+  "arizona": {
+    "cityCount": 68,
+    "pctPre1980": 7,
+    "avgMedianYear": 1994,
+    "avgHomeownership": 66,
+    "avgMedianIncome": 77147,
+    "tierCounts": {
+      "1": 11,
+      "2": 12,
+      "3": 15,
+      "4": 30
+    },
+    "topCities": [
+      {
+        "name": "Phoenix",
+        "population": 1609456
+      },
+      {
+        "name": "Tucson",
+        "population": 541033
+      },
+      {
+        "name": "Mesa",
+        "population": 503390
+      },
+      {
+        "name": "Chandler",
+        "population": 275618
+      },
+      {
+        "name": "Gilbert",
+        "population": 267267
+      }
+    ]
+  },
+  "arkansas": {
+    "cityCount": 39,
+    "pctPre1980": 41,
+    "avgMedianYear": 1986,
+    "avgHomeownership": 51,
+    "avgMedianIncome": 58002,
+    "tierCounts": {
+      "1": 1,
+      "2": 8,
+      "3": 10,
+      "4": 20
+    },
+    "topCities": [
+      {
+        "name": "Little Rock",
+        "population": 202218
+      },
+      {
+        "name": "Fayetteville",
+        "population": 95022
+      },
+      {
+        "name": "Fort Smith",
+        "population": 89315
+      },
+      {
+        "name": "Springdale",
+        "population": 86705
+      },
+      {
+        "name": "Jonesboro",
+        "population": 78379
+      }
+    ]
+  },
+  "california": {
+    "cityCount": 499,
+    "pctPre1980": 60,
+    "avgMedianYear": 1976,
+    "avgHomeownership": 56,
+    "avgMedianIncome": 100557,
+    "tierCounts": {
+      "1": 76,
+      "2": 111,
+      "3": 116,
+      "4": 196
+    },
+    "topCities": [
+      {
+        "name": "Los Angeles",
+        "population": 3881041
+      },
+      {
+        "name": "San Diego",
+        "population": 1383987
+      },
+      {
+        "name": "San Jose",
+        "population": 1001176
+      },
+      {
+        "name": "San Francisco",
+        "population": 851036
+      },
+      {
+        "name": "Fresno",
+        "population": 541528
+      }
+    ]
+  },
+  "colorado": {
+    "cityCount": 70,
+    "pctPre1980": 24,
+    "avgMedianYear": 1989,
+    "avgHomeownership": 66,
+    "avgMedianIncome": 96873,
+    "tierCounts": {
+      "1": 13,
+      "2": 7,
+      "3": 14,
+      "4": 36
+    },
+    "topCities": [
+      {
+        "name": "Denver",
+        "population": 710800
+      },
+      {
+        "name": "Colorado Springs",
+        "population": 479612
+      },
+      {
+        "name": "Aurora",
+        "population": 387349
+      },
+      {
+        "name": "Fort Collins",
+        "population": 168758
+      },
+      {
+        "name": "Lakewood",
+        "population": 156149
+      }
+    ]
+  },
+  "connecticut": {
+    "cityCount": 35,
+    "pctPre1980": 97,
+    "avgMedianYear": 1962,
+    "avgHomeownership": 55,
+    "avgMedianIncome": 81280,
+    "tierCounts": {
+      "1": 5,
+      "2": 9,
+      "3": 10,
+      "4": 11
+    },
+    "topCities": [
+      {
+        "name": "Bridgeport",
+        "population": 148470
+      },
+      {
+        "name": "New Haven",
+        "population": 135736
+      },
+      {
+        "name": "Stamford",
+        "population": 135413
+      },
+      {
+        "name": "Hartford",
+        "population": 121057
+      },
+      {
+        "name": "Waterbury",
+        "population": 114480
+      }
+    ]
+  },
+  "delaware": {
+    "cityCount": 12,
+    "pctPre1980": 42,
+    "avgMedianYear": 1981,
+    "avgHomeownership": 59,
+    "avgMedianIncome": 81914,
+    "tierCounts": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 9
+    },
+    "topCities": [
+      {
+        "name": "Wilmington",
+        "population": 71034
+      },
+      {
+        "name": "Dover",
+        "population": 38879
+      },
+      {
+        "name": "Newark",
+        "population": 30655
+      },
+      {
+        "name": "Middletown",
+        "population": 23573
+      },
+      {
+        "name": "Bear",
+        "population": 23070
+      }
+    ]
+  },
+  "florida": {
+    "cityCount": 343,
+    "pctPre1980": 27,
+    "avgMedianYear": 1986,
+    "avgHomeownership": 58,
+    "avgMedianIncome": 73145,
+    "tierCounts": {
+      "1": 26,
+      "2": 54,
+      "3": 89,
+      "4": 174
+    },
+    "topCities": [
+      {
+        "name": "Jacksonville",
+        "population": 950203
+      },
+      {
+        "name": "Miami",
+        "population": 443665
+      },
+      {
+        "name": "Tampa",
+        "population": 388768
+      },
+      {
+        "name": "Orlando",
+        "population": 307738
+      },
+      {
+        "name": "St. Petersburg",
+        "population": 259343
+      }
+    ]
+  },
+  "georgia": {
+    "cityCount": 111,
+    "pctPre1980": 29,
+    "avgMedianYear": 1988,
+    "avgHomeownership": 49,
+    "avgMedianIncome": 70064,
+    "tierCounts": {
+      "1": 8,
+      "2": 11,
+      "3": 28,
+      "4": 64
+    },
+    "topCities": [
+      {
+        "name": "Atlanta",
+        "population": 494838
+      },
+      {
+        "name": "Columbus",
+        "population": 204572
+      },
+      {
+        "name": "Augusta-Richmond County consolidated government (balance)",
+        "population": 201615
+      },
+      {
+        "name": "Macon-Bibb County",
+        "population": 156554
+      },
+      {
+        "name": "Savannah",
+        "population": 147583
+      }
+    ]
+  },
+  "idaho": {
+    "cityCount": 23,
+    "pctPre1980": 26,
+    "avgMedianYear": 1990,
+    "avgHomeownership": 63,
+    "avgMedianIncome": 68674,
+    "tierCounts": {
+      "1": 3,
+      "2": 5,
+      "3": 5,
+      "4": 10
+    },
+    "topCities": [
+      {
+        "name": "Boise City",
+        "population": 234192
+      },
+      {
+        "name": "Meridian",
+        "population": 119872
+      },
+      {
+        "name": "Nampa",
+        "population": 102598
+      },
+      {
+        "name": "Idaho Falls",
+        "population": 65685
+      },
+      {
+        "name": "Caldwell",
+        "population": 61212
+      }
+    ]
+  },
+  "illinois": {
+    "cityCount": 223,
+    "pctPre1980": 67,
+    "avgMedianYear": 1974,
+    "avgHomeownership": 66,
+    "avgMedianIncome": 88751,
+    "tierCounts": {
+      "1": 8,
+      "2": 21,
+      "3": 60,
+      "4": 134
+    },
+    "topCities": [
+      {
+        "name": "Chicago",
+        "population": 2721914
+      },
+      {
+        "name": "Aurora",
+        "population": 181405
+      },
+      {
+        "name": "Joliet",
+        "population": 150221
+      },
+      {
+        "name": "Naperville",
+        "population": 149089
+      },
+      {
+        "name": "Rockford",
+        "population": 148173
+      }
+    ]
+  },
+  "indiana": {
+    "cityCount": 82,
+    "pctPre1980": 63,
+    "avgMedianYear": 1974,
+    "avgHomeownership": 60,
+    "avgMedianIncome": 66783,
+    "tierCounts": {
+      "1": 4,
+      "2": 15,
+      "3": 21,
+      "4": 42
+    },
+    "topCities": [
+      {
+        "name": "Indianapolis (balance)",
+        "population": 882006
+      },
+      {
+        "name": "Fort Wayne",
+        "population": 264514
+      },
+      {
+        "name": "Evansville",
+        "population": 116906
+      },
+      {
+        "name": "South Bend",
+        "population": 103084
+      },
+      {
+        "name": "Carmel",
+        "population": 99453
+      }
+    ]
+  },
+  "iowa": {
+    "cityCount": 42,
+    "pctPre1980": 62,
+    "avgMedianYear": 1976,
+    "avgHomeownership": 62,
+    "avgMedianIncome": 73058,
+    "tierCounts": {
+      "1": 3,
+      "2": 8,
+      "3": 8,
+      "4": 23
+    },
+    "topCities": [
+      {
+        "name": "Des Moines",
+        "population": 213164
+      },
+      {
+        "name": "Cedar Rapids",
+        "population": 136929
+      },
+      {
+        "name": "Davenport",
+        "population": 101448
+      },
+      {
+        "name": "Sioux City",
+        "population": 85469
+      },
+      {
+        "name": "Iowa City",
+        "population": 74878
+      }
+    ]
+  },
+  "kansas": {
+    "cityCount": 35,
+    "pctPre1980": 63,
+    "avgMedianYear": 1975,
+    "avgHomeownership": 57,
+    "avgMedianIncome": 72295,
+    "tierCounts": {
+      "1": 5,
+      "2": 4,
+      "3": 7,
+      "4": 19
+    },
+    "topCities": [
+      {
+        "name": "Wichita",
+        "population": 395951
+      },
+      {
+        "name": "Overland Park",
+        "population": 196676
+      },
+      {
+        "name": "Kansas City",
+        "population": 155438
+      },
+      {
+        "name": "Olathe",
+        "population": 142114
+      },
+      {
+        "name": "Topeka",
+        "population": 126431
+      }
+    ]
+  },
+  "kentucky": {
+    "cityCount": 47,
+    "pctPre1980": 51,
+    "avgMedianYear": 1980,
+    "avgHomeownership": 53,
+    "avgMedianIncome": 62571,
+    "tierCounts": {
+      "1": 2,
+      "2": 2,
+      "3": 12,
+      "4": 31
+    },
+    "topCities": [
+      {
+        "name": "Louisville/Jefferson County metro government (balance)",
+        "population": 629176
+      },
+      {
+        "name": "Lexington-Fayette urban county",
+        "population": 321276
+      },
+      {
+        "name": "Bowling Green",
+        "population": 72385
+      },
+      {
+        "name": "Owensboro",
+        "population": 60019
+      },
+      {
+        "name": "Covington",
+        "population": 40923
+      }
+    ]
+  },
+  "louisiana": {
+    "cityCount": 58,
+    "pctPre1980": 57,
+    "avgMedianYear": 1980,
+    "avgHomeownership": 56,
+    "avgMedianIncome": 61027,
+    "tierCounts": {
+      "1": 5,
+      "2": 3,
+      "3": 10,
+      "4": 40
+    },
+    "topCities": [
+      {
+        "name": "New Orleans",
+        "population": 380408
+      },
+      {
+        "name": "Baton Rouge",
+        "population": 225500
+      },
+      {
+        "name": "Shreveport",
+        "population": 186183
+      },
+      {
+        "name": "Metairie",
+        "population": 140046
+      },
+      {
+        "name": "Lafayette",
+        "population": 121706
+      }
+    ]
+  },
+  "maine": {
+    "cityCount": 13,
+    "pctPre1980": 92,
+    "avgMedianYear": 1963,
+    "avgHomeownership": 51,
+    "avgMedianIncome": 63666,
+    "tierCounts": {
+      "1": 0,
+      "2": 1,
+      "3": 3,
+      "4": 9
+    },
+    "topCities": [
+      {
+        "name": "Portland",
+        "population": 68280
+      },
+      {
+        "name": "Lewiston",
+        "population": 37577
+      },
+      {
+        "name": "Bangor",
+        "population": 31705
+      },
+      {
+        "name": "South Portland",
+        "population": 26656
+      },
+      {
+        "name": "Auburn",
+        "population": 24038
+      }
+    ]
+  },
+  "maryland": {
+    "cityCount": 138,
+    "pctPre1980": 46,
+    "avgMedianYear": 1980,
+    "avgHomeownership": 65,
+    "avgMedianIncome": 108771,
+    "tierCounts": {
+      "1": 2,
+      "2": 16,
+      "3": 38,
+      "4": 82
+    },
+    "topCities": [
+      {
+        "name": "Baltimore",
+        "population": 584548
+      },
+      {
+        "name": "Columbia",
+        "population": 106600
+      },
+      {
+        "name": "Germantown",
+        "population": 90210
+      },
+      {
+        "name": "Silver Spring",
+        "population": 81808
+      },
+      {
+        "name": "Waldorf",
+        "population": 81077
+      }
+    ]
+  },
+  "massachusetts": {
+    "cityCount": 89,
+    "pctPre1980": 97,
+    "avgMedianYear": 1957,
+    "avgHomeownership": 58,
+    "avgMedianIncome": 103056,
+    "tierCounts": {
+      "1": 9,
+      "2": 16,
+      "3": 39,
+      "4": 25
+    },
+    "topCities": [
+      {
+        "name": "Boston",
+        "population": 665945
+      },
+      {
+        "name": "Worcester",
+        "population": 204191
+      },
+      {
+        "name": "Springfield",
+        "population": 155305
+      },
+      {
+        "name": "Cambridge",
+        "population": 117962
+      },
+      {
+        "name": "Lowell",
+        "population": 114737
+      }
+    ]
+  },
+  "michigan": {
+    "cityCount": 102,
+    "pctPre1980": 83,
+    "avgMedianYear": 1965,
+    "avgHomeownership": 61,
+    "avgMedianIncome": 70181,
+    "tierCounts": {
+      "1": 7,
+      "2": 17,
+      "3": 26,
+      "4": 52
+    },
+    "topCities": [
+      {
+        "name": "Detroit",
+        "population": 636787
+      },
+      {
+        "name": "Grand Rapids",
+        "population": 198096
+      },
+      {
+        "name": "Warren",
+        "population": 138588
+      },
+      {
+        "name": "Sterling Heights",
+        "population": 133744
+      },
+      {
+        "name": "Ann Arbor",
+        "population": 122216
+      }
+    ]
+  },
+  "minnesota": {
+    "cityCount": 100,
+    "pctPre1980": 44,
+    "avgMedianYear": 1980,
+    "avgHomeownership": 69,
+    "avgMedianIncome": 90118,
+    "tierCounts": {
+      "1": 3,
+      "2": 16,
+      "3": 24,
+      "4": 57
+    },
+    "topCities": [
+      {
+        "name": "Minneapolis",
+        "population": 426877
+      },
+      {
+        "name": "St. Paul",
+        "population": 308806
+      },
+      {
+        "name": "Rochester",
+        "population": 120848
+      },
+      {
+        "name": "Bloomington",
+        "population": 89244
+      },
+      {
+        "name": "Duluth",
+        "population": 86772
+      }
+    ]
+  },
+  "mississippi": {
+    "cityCount": 42,
+    "pctPre1980": 52,
+    "avgMedianYear": 1981,
+    "avgHomeownership": 51,
+    "avgMedianIncome": 52824,
+    "tierCounts": {
+      "1": 1,
+      "2": 2,
+      "3": 12,
+      "4": 27
+    },
+    "topCities": [
+      {
+        "name": "Jackson",
+        "population": 153271
+      },
+      {
+        "name": "Gulfport",
+        "population": 72524
+      },
+      {
+        "name": "Southaven",
+        "population": 54908
+      },
+      {
+        "name": "Biloxi",
+        "population": 49141
+      },
+      {
+        "name": "Hattiesburg",
+        "population": 48466
+      }
+    ]
+  },
+  "missouri": {
+    "cityCount": 87,
+    "pctPre1980": 57,
+    "avgMedianYear": 1977,
+    "avgHomeownership": 59,
+    "avgMedianIncome": 73235,
+    "tierCounts": {
+      "1": 6,
+      "2": 7,
+      "3": 16,
+      "4": 58
+    },
+    "topCities": [
+      {
+        "name": "Kansas City",
+        "population": 505958
+      },
+      {
+        "name": "St. Louis",
+        "population": 298018
+      },
+      {
+        "name": "Springfield",
+        "population": 168873
+      },
+      {
+        "name": "Columbia",
+        "population": 126172
+      },
+      {
+        "name": "Independence",
+        "population": 122218
+      }
+    ]
+  },
+  "montana": {
+    "cityCount": 8,
+    "pctPre1980": 63,
+    "avgMedianYear": 1979,
+    "avgHomeownership": 54,
+    "avgMedianIncome": 65384,
+    "tierCounts": {
+      "1": 1,
+      "2": 3,
+      "3": 3,
+      "4": 1
+    },
+    "topCities": [
+      {
+        "name": "Billings",
+        "population": 117093
+      },
+      {
+        "name": "Missoula",
+        "population": 74627
+      },
+      {
+        "name": "Great Falls",
+        "population": 60373
+      },
+      {
+        "name": "Bozeman",
+        "population": 53500
+      },
+      {
+        "name": "Butte-Silver Bow (balance)",
+        "population": 34638
+      }
+    ]
+  },
+  "nebraska": {
+    "cityCount": 17,
+    "pctPre1980": 71,
+    "avgMedianYear": 1975,
+    "avgHomeownership": 58,
+    "avgMedianIncome": 67018,
+    "tierCounts": {
+      "1": 2,
+      "2": 2,
+      "3": 4,
+      "4": 9
+    },
+    "topCities": [
+      {
+        "name": "Omaha",
+        "population": 489201
+      },
+      {
+        "name": "Lincoln",
+        "population": 290531
+      },
+      {
+        "name": "Bellevue",
+        "population": 63336
+      },
+      {
+        "name": "Grand Island",
+        "population": 52822
+      },
+      {
+        "name": "Kearney",
+        "population": 33809
+      }
+    ]
+  },
+  "nevada": {
+    "cityCount": 24,
+    "pctPre1980": 4,
+    "avgMedianYear": 1994,
+    "avgHomeownership": 60,
+    "avgMedianIncome": 77055,
+    "tierCounts": {
+      "1": 9,
+      "2": 1,
+      "3": 4,
+      "4": 10
+    },
+    "topCities": [
+      {
+        "name": "Las Vegas",
+        "population": 644835
+      },
+      {
+        "name": "Henderson",
+        "population": 318063
+      },
+      {
+        "name": "Reno",
+        "population": 265196
+      },
+      {
+        "name": "North Las Vegas",
+        "population": 264022
+      },
+      {
+        "name": "Enterprise",
+        "population": 225461
+      }
+    ]
+  },
+  "new-hampshire": {
+    "cityCount": 15,
+    "pctPre1980": 87,
+    "avgMedianYear": 1971,
+    "avgHomeownership": 54,
+    "avgMedianIncome": 83201,
+    "tierCounts": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 10
+    },
+    "topCities": [
+      {
+        "name": "Manchester",
+        "population": 115037
+      },
+      {
+        "name": "Nashua",
+        "population": 90943
+      },
+      {
+        "name": "Concord",
+        "population": 44049
+      },
+      {
+        "name": "Dover",
+        "population": 32849
+      },
+      {
+        "name": "Rochester",
+        "population": 32573
+      }
+    ]
+  },
+  "new-jersey": {
+    "cityCount": 153,
+    "pctPre1980": 90,
+    "avgMedianYear": 1964,
+    "avgHomeownership": 59,
+    "avgMedianIncome": 108846,
+    "tierCounts": {
+      "1": 4,
+      "2": 15,
+      "3": 23,
+      "4": 111
+    },
+    "topCities": [
+      {
+        "name": "Newark",
+        "population": 307355
+      },
+      {
+        "name": "Jersey City",
+        "population": 287899
+      },
+      {
+        "name": "Paterson",
+        "population": 157864
+      },
+      {
+        "name": "Elizabeth",
+        "population": 135665
+      },
+      {
+        "name": "Toms River",
+        "population": 92827
+      }
+    ]
+  },
+  "new-mexico": {
+    "cityCount": 23,
+    "pctPre1980": 65,
+    "avgMedianYear": 1979,
+    "avgHomeownership": 58,
+    "avgMedianIncome": 59883,
+    "tierCounts": {
+      "1": 3,
+      "2": 1,
+      "3": 7,
+      "4": 12
+    },
+    "topCities": [
+      {
+        "name": "Albuquerque",
+        "population": 562551
+      },
+      {
+        "name": "Las Cruces",
+        "population": 111273
+      },
+      {
+        "name": "Rio Rancho",
+        "population": 104351
+      },
+      {
+        "name": "Santa Fe",
+        "population": 87617
+      },
+      {
+        "name": "Roswell",
+        "population": 48035
+      }
+    ]
+  },
+  "new-york": {
+    "cityCount": 203,
+    "pctPre1980": 95,
+    "avgMedianYear": 1959,
+    "avgHomeownership": 66,
+    "avgMedianIncome": 106648,
+    "tierCounts": {
+      "1": 5,
+      "2": 13,
+      "3": 48,
+      "4": 137
+    },
+    "topCities": [
+      {
+        "name": "New York",
+        "population": 8622467
+      },
+      {
+        "name": "Buffalo",
+        "population": 276688
+      },
+      {
+        "name": "Rochester",
+        "population": 210992
+      },
+      {
+        "name": "Yonkers",
+        "population": 209780
+      },
+      {
+        "name": "Syracuse",
+        "population": 146134
+      }
+    ]
+  },
+  "north-carolina": {
+    "cityCount": 95,
+    "pctPre1980": 31,
+    "avgMedianYear": 1988,
+    "avgHomeownership": 55,
+    "avgMedianIncome": 72058,
+    "tierCounts": {
+      "1": 10,
+      "2": 11,
+      "3": 21,
+      "4": 53
+    },
+    "topCities": [
+      {
+        "name": "Charlotte",
+        "population": 875045
+      },
+      {
+        "name": "Raleigh",
+        "population": 465517
+      },
+      {
+        "name": "Greensboro",
+        "population": 297202
+      },
+      {
+        "name": "Durham",
+        "population": 284094
+      },
+      {
+        "name": "Winston-Salem",
+        "population": 249571
+      }
+    ]
+  },
+  "north-dakota": {
+    "cityCount": 9,
+    "pctPre1980": 22,
+    "avgMedianYear": 1987,
+    "avgHomeownership": 50,
+    "avgMedianIncome": 73287,
+    "tierCounts": {
+      "1": 1,
+      "2": 2,
+      "3": 4,
+      "4": 2
+    },
+    "topCities": [
+      {
+        "name": "Fargo",
+        "population": 127319
+      },
+      {
+        "name": "Bismarck",
+        "population": 73694
+      },
+      {
+        "name": "Grand Forks",
+        "population": 58935
+      },
+      {
+        "name": "Minot",
+        "population": 48038
+      },
+      {
+        "name": "West Fargo",
+        "population": 38653
+      }
+    ]
+  },
+  "ohio": {
+    "cityCount": 187,
+    "pctPre1980": 77,
+    "avgMedianYear": 1968,
+    "avgHomeownership": 61,
+    "avgMedianIncome": 72051,
+    "tierCounts": {
+      "1": 6,
+      "2": 12,
+      "3": 43,
+      "4": 126
+    },
+    "topCities": [
+      {
+        "name": "Columbus",
+        "population": 902449
+      },
+      {
+        "name": "Cleveland",
+        "population": 370365
+      },
+      {
+        "name": "Cincinnati",
+        "population": 308870
+      },
+      {
+        "name": "Toledo",
+        "population": 269962
+      },
+      {
+        "name": "Akron",
+        "population": 190273
+      }
+    ]
+  },
+  "oklahoma": {
+    "cityCount": 44,
+    "pctPre1980": 59,
+    "avgMedianYear": 1978,
+    "avgHomeownership": 55,
+    "avgMedianIncome": 61087,
+    "tierCounts": {
+      "1": 4,
+      "2": 5,
+      "3": 7,
+      "4": 28
+    },
+    "topCities": [
+      {
+        "name": "Oklahoma City",
+        "population": 681088
+      },
+      {
+        "name": "Tulsa",
+        "population": 411938
+      },
+      {
+        "name": "Norman",
+        "population": 127701
+      },
+      {
+        "name": "Broken Arrow",
+        "population": 114237
+      },
+      {
+        "name": "Edmond",
+        "population": 94503
+      }
+    ]
+  },
+  "oregon": {
+    "cityCount": 67,
+    "pctPre1980": 46,
+    "avgMedianYear": 1981,
+    "avgHomeownership": 59,
+    "avgMedianIncome": 78530,
+    "tierCounts": {
+      "1": 5,
+      "2": 8,
+      "3": 13,
+      "4": 41
+    },
+    "topCities": [
+      {
+        "name": "Portland",
+        "population": 646101
+      },
+      {
+        "name": "Eugene",
+        "population": 176755
+      },
+      {
+        "name": "Salem",
+        "population": 175754
+      },
+      {
+        "name": "Gresham",
+        "population": 113525
+      },
+      {
+        "name": "Hillsboro",
+        "population": 106612
+      }
+    ]
+  },
+  "pennsylvania": {
+    "cityCount": 86,
+    "pctPre1980": 93,
+    "avgMedianYear": 1956,
+    "avgHomeownership": 54,
+    "avgMedianIncome": 67070,
+    "tierCounts": {
+      "1": 3,
+      "2": 7,
+      "3": 14,
+      "4": 62
+    },
+    "topCities": [
+      {
+        "name": "Philadelphia",
+        "population": 1593208
+      },
+      {
+        "name": "Pittsburgh",
+        "population": 303843
+      },
+      {
+        "name": "Allentown",
+        "population": 125292
+      },
+      {
+        "name": "Erie",
+        "population": 94826
+      },
+      {
+        "name": "Reading",
+        "population": 94601
+      }
+    ]
+  },
+  "rhode-island": {
+    "cityCount": 11,
+    "pctPre1980": 100,
+    "avgMedianYear": 1954,
+    "avgHomeownership": 49,
+    "avgMedianIncome": 73614,
+    "tierCounts": {
+      "1": 1,
+      "2": 3,
+      "3": 3,
+      "4": 4
+    },
+    "topCities": [
+      {
+        "name": "Providence",
+        "population": 189715
+      },
+      {
+        "name": "Warwick",
+        "population": 82783
+      },
+      {
+        "name": "Cranston",
+        "population": 82691
+      },
+      {
+        "name": "Pawtucket",
+        "population": 75176
+      },
+      {
+        "name": "East Providence",
+        "population": 47012
+      }
+    ]
+  },
+  "south-carolina": {
+    "cityCount": 61,
+    "pctPre1980": 26,
+    "avgMedianYear": 1988,
+    "avgHomeownership": 57,
+    "avgMedianIncome": 68411,
+    "tierCounts": {
+      "1": 3,
+      "2": 4,
+      "3": 13,
+      "4": 41
+    },
+    "topCities": [
+      {
+        "name": "Charleston",
+        "population": 149960
+      },
+      {
+        "name": "Columbia",
+        "population": 136754
+      },
+      {
+        "name": "North Charleston",
+        "population": 115755
+      },
+      {
+        "name": "Mount Pleasant",
+        "population": 90945
+      },
+      {
+        "name": "Rock Hill",
+        "population": 74170
+      }
+    ]
+  },
+  "south-dakota": {
+    "cityCount": 13,
+    "pctPre1980": 54,
+    "avgMedianYear": 1982,
+    "avgHomeownership": 55,
+    "avgMedianIncome": 65103,
+    "tierCounts": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 10
+    },
+    "topCities": [
+      {
+        "name": "Sioux Falls",
+        "population": 193401
+      },
+      {
+        "name": "Rapid City",
+        "population": 75632
+      },
+      {
+        "name": "Aberdeen",
+        "population": 28388
+      },
+      {
+        "name": "Brookings",
+        "population": 23530
+      },
+      {
+        "name": "Watertown",
+        "population": 22718
+      }
+    ]
+  },
+  "tennessee": {
+    "cityCount": 65,
+    "pctPre1980": 37,
+    "avgMedianYear": 1985,
+    "avgHomeownership": 59,
+    "avgMedianIncome": 70068,
+    "tierCounts": {
+      "1": 6,
+      "2": 9,
+      "3": 13,
+      "4": 37
+    },
+    "topCities": [
+      {
+        "name": "Nashville-Davidson metropolitan government (balance)",
+        "population": 684103
+      },
+      {
+        "name": "Memphis",
+        "population": 630027
+      },
+      {
+        "name": "Knoxville",
+        "population": 191857
+      },
+      {
+        "name": "Chattanooga",
+        "population": 181288
+      },
+      {
+        "name": "Clarksville",
+        "population": 167882
+      }
+    ]
+  },
+  "texas": {
+    "cityCount": 264,
+    "pctPre1980": 28,
+    "avgMedianYear": 1988,
+    "avgHomeownership": 60,
+    "avgMedianIncome": 81035,
+    "tierCounts": {
+      "1": 41,
+      "2": 30,
+      "3": 58,
+      "4": 135
+    },
+    "topCities": [
+      {
+        "name": "Houston",
+        "population": 2296253
+      },
+      {
+        "name": "San Antonio",
+        "population": 1445662
+      },
+      {
+        "name": "Dallas",
+        "population": 1300642
+      },
+      {
+        "name": "Austin",
+        "population": 958202
+      },
+      {
+        "name": "Fort Worth",
+        "population": 924663
+      }
+    ]
+  },
+  "utah": {
+    "cityCount": 65,
+    "pctPre1980": 17,
+    "avgMedianYear": 1993,
+    "avgHomeownership": 70,
+    "avgMedianIncome": 94751,
+    "tierCounts": {
+      "1": 4,
+      "2": 13,
+      "3": 21,
+      "4": 27
+    },
+    "topCities": [
+      {
+        "name": "Salt Lake City",
+        "population": 201269
+      },
+      {
+        "name": "West Valley City",
+        "population": 138868
+      },
+      {
+        "name": "West Jordan",
+        "population": 116383
+      },
+      {
+        "name": "Provo",
+        "population": 114400
+      },
+      {
+        "name": "Orem",
+        "population": 97100
+      }
+    ]
+  },
+  "vermont": {
+    "cityCount": 4,
+    "pctPre1980": 50,
+    "avgMedianYear": 1967,
+    "avgHomeownership": 50,
+    "avgMedianIncome": 75309,
+    "tierCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 3
+    },
+    "topCities": [
+      {
+        "name": "Burlington",
+        "population": 44646
+      },
+      {
+        "name": "South Burlington",
+        "population": 20241
+      },
+      {
+        "name": "Rutland",
+        "population": 15819
+      },
+      {
+        "name": "Essex Junction",
+        "population": 10646
+      }
+    ]
+  },
+  "virginia": {
+    "cityCount": 128,
+    "pctPre1980": 43,
+    "avgMedianYear": 1982,
+    "avgHomeownership": 64,
+    "avgMedianIncome": 116640,
+    "tierCounts": {
+      "1": 8,
+      "2": 8,
+      "3": 28,
+      "4": 84
+    },
+    "topCities": [
+      {
+        "name": "Virginia Beach",
+        "population": 457900
+      },
+      {
+        "name": "Chesapeake",
+        "population": 249377
+      },
+      {
+        "name": "Norfolk",
+        "population": 236973
+      },
+      {
+        "name": "Arlington",
+        "population": 235845
+      },
+      {
+        "name": "Richmond",
+        "population": 227171
+      }
+    ]
+  },
+  "washington": {
+    "cityCount": 131,
+    "pctPre1980": 28,
+    "avgMedianYear": 1986,
+    "avgHomeownership": 62,
+    "avgMedianIncome": 99577,
+    "tierCounts": {
+      "1": 9,
+      "2": 17,
+      "3": 25,
+      "4": 80
+    },
+    "topCities": [
+      {
+        "name": "Seattle",
+        "population": 734603
+      },
+      {
+        "name": "Spokane",
+        "population": 227922
+      },
+      {
+        "name": "Tacoma",
+        "population": 219234
+      },
+      {
+        "name": "Vancouver",
+        "population": 190700
+      },
+      {
+        "name": "Bellevue",
+        "population": 150606
+      }
+    ]
+  },
+  "west-virginia": {
+    "cityCount": 16,
+    "pctPre1980": 88,
+    "avgMedianYear": 1962,
+    "avgHomeownership": 57,
+    "avgMedianIncome": 58507,
+    "tierCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 5,
+      "4": 11
+    },
+    "topCities": [
+      {
+        "name": "Charleston",
+        "population": 48415
+      },
+      {
+        "name": "Huntington",
+        "population": 46637
+      },
+      {
+        "name": "Morgantown",
+        "population": 30220
+      },
+      {
+        "name": "Parkersburg",
+        "population": 29685
+      },
+      {
+        "name": "Wheeling",
+        "population": 26900
+      }
+    ]
+  },
+  "wisconsin": {
+    "cityCount": 96,
+    "pctPre1980": 57,
+    "avgMedianYear": 1977,
+    "avgHomeownership": 62,
+    "avgMedianIncome": 79085,
+    "tierCounts": {
+      "1": 3,
+      "2": 9,
+      "3": 23,
+      "4": 61
+    },
+    "topCities": [
+      {
+        "name": "Milwaukee",
+        "population": 573299
+      },
+      {
+        "name": "Madison",
+        "population": 268516
+      },
+      {
+        "name": "Green Bay",
+        "population": 106846
+      },
+      {
+        "name": "Kenosha",
+        "population": 99493
+      },
+      {
+        "name": "Racine",
+        "population": 77453
+      }
+    ]
+  },
+  "wyoming": {
+    "cityCount": 11,
+    "pctPre1980": 64,
+    "avgMedianYear": 1980,
+    "avgHomeownership": 58,
+    "avgMedianIncome": 71901,
+    "tierCounts": {
+      "1": 0,
+      "2": 2,
+      "3": 2,
+      "4": 7
+    },
+    "topCities": [
+      {
+        "name": "Cheyenne",
+        "population": 64795
+      },
+      {
+        "name": "Casper",
+        "population": 58631
+      },
+      {
+        "name": "Gillette",
+        "population": 33158
+      },
+      {
+        "name": "Laramie",
+        "population": 31735
+      },
+      {
+        "name": "Rock Springs",
+        "population": 23361
+      }
+    ]
+  }
+}
