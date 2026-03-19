@@ -6,7 +6,7 @@ export const electricalConfig = {
   siteName: "USA Electrical Quote",
   phoneTel: "tel:+18554443726",
   phoneDisplay: "(855) 444-3726",
-  ga4Id: "", // ← à remplir après création GA4
+  ga4Id: "G-FW9Y3C2WS4", // ← à remplir après création GA4
   services: [
     { slug: "electrician-quote",         label: "Electrician Quote" },
     { slug: "panel-upgrade",             label: "Panel Upgrade Quote" },
