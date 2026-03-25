@@ -129,6 +129,16 @@ export default function StatePage({
     name: label,
     areaServed: { "@type": "State", name: stateName },
   };
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: `${label} in ${stateName}`,
+    url: `${SITE_BASE_URL}/${service}/${stateSlug}`,
+    areaServed: {
+      "@type": "State",
+      name: stateName,
+    },
+  };
 
   return (
     <div className={styles.wrapper}>
@@ -145,6 +155,12 @@ export default function StatePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema),
+        }}
       />
       <div className={styles.breadcrumbWrap}>
         <Breadcrumb

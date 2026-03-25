@@ -96,6 +96,7 @@ function ServiceCitySchema({
   breadcrumbItems,
   faqItems,
   geo,
+  siteBaseUrl,
 }: {
   serviceLabel: string;
   serviceSlug: string;
@@ -106,6 +107,7 @@ function ServiceCitySchema({
   breadcrumbItems: { name: string; item?: string }[];
   faqItems: { q: string; a: string }[];
   geo?: { latitude: number; longitude: number } | null;
+  siteBaseUrl: string;
 }) {
   const breadcrumbList = {
     "@context": "https://schema.org",
@@ -151,6 +153,24 @@ function ServiceCitySchema({
         },
       }),
   };
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: `${serviceLabel} in ${cityName}`,
+    url: `${siteBaseUrl}/${serviceSlug}/${stateSlug}/${citySlug}`,
+    areaServed: {
+      "@type": "City",
+      name: cityName,
+      containedInPlace: { "@type": "State", name: stateName },
+    },
+    ...(geo && {
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: geo.latitude,
+        longitude: geo.longitude,
+      },
+    }),
+  };
   return (
     <>
       <script
@@ -168,6 +188,12 @@ function ServiceCitySchema({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(placeSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema),
+        }}
       />
     </>
   );
@@ -302,6 +328,7 @@ export default function CityPage({
           ]}
           faqItems={c.faq.items}
           geo={placeGeo}
+          siteBaseUrl={SITE_BASE_URL}
         />
         <div className={styles.breadcrumbWrap}>
           <Breadcrumb

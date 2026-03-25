@@ -70,11 +70,22 @@ function ServicePageSchema({
     description: serviceDescription,
     areaServed: { "@type": "Country", name: "United States" },
   };
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: serviceName,
+    url: `${SITE_BASE_URL}/${serviceSlug}`,
+    areaServed: {
+      "@type": "Country",
+      name: "United States",
+    },
+  };
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
     </>
   );
 }
