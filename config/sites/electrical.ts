@@ -4,8 +4,8 @@ export const electricalConfig = {
   slug: "electrical",
   siteUrl: "https://usa-electrical-quote.com",
   siteName: "USA Electrical Quote",
-  phoneTel: "tel:+18554443726",
-  phoneDisplay: "(855) 444-3726",
+  phoneTel: "tel:+18335675779",
+  phoneDisplay: "(833) 567-5779",
   ga4Id: "G-FW9Y3C2WS4", // ← à remplir après création GA4
   services: [
     { slug: "electrician-quote",         label: "Electrician Quote" },
