@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import { getSiteConfigValues } from "@/lib/siteConfig";
-
 export default function robots(): MetadataRoute.Robots {
   const { SITE_BASE_URL } = getSiteConfigValues();
   return {
@@ -8,6 +7,9 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: `${SITE_BASE_URL}/sitemap.xml`,
+    sitemap: [
+      `${SITE_BASE_URL}/sitemap-priority.xml`,
+      `${SITE_BASE_URL}/sitemap.xml`,
+    ],
   };
 }
