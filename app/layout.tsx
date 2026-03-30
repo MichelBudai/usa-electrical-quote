@@ -54,7 +54,7 @@ export default function RootLayout({
               {`document.addEventListener('click', function(e) {
                 var el = e.target.closest('a[href^="tel:"]');
                 if (el && typeof gtag !== 'undefined') {
-                  gtag('event', 'phone_call_click', { event_category: 'conversion', event_label: el.href });
+                  var callValues = {'plumbing':40,'pest-control':50,'roofing':62,'electrical':40,'tree-removal':38,'hvac':53,'water-damage':75,'mold-remediation':68,'solar':90,'flooring':35,'bathroom-remodel':50,'kitchen-remodel':58}; var slug = window.location.hostname.replace('usa-','').replace('-quote.com',''); var callValue = callValues[slug] || 40; gtag('event', 'phone_call_click', { event_category: 'conversion', event_label: el.href, value: callValue, currency: 'USD' });
                 }
               });`}
             </Script>
