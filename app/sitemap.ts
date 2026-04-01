@@ -19,7 +19,7 @@ function getCityPriority(population: number | undefined): number {
 export default function sitemap(): MetadataRoute.Sitemap {
   const { SITE_BASE_URL } = getSiteConfigValues();
   const { SERVICE_SLUGS } = getServiceConstants();
-  const lastMod = new Date();
+  const lastMod = new Date("2026-04-01");
   const entries: MetadataRoute.Sitemap = [];
 
   // Homepage
