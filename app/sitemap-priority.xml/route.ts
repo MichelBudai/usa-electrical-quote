@@ -7,7 +7,7 @@ export const revalidate = 2592000;
 
 const PRIORITY_POPULATION = 100_000;
 
-// Date fixe du dernier déploiement majeur — mettre à jour lors dun changement de contenu significatif
+// Date fixe du dernier déploiement majeur — mettre à jour lors d'un changement de contenu significatif
 const LAST_MOD = "2026-04-01";
 
 export function GET() {
@@ -44,7 +44,7 @@ export function GET() {
     }
   }
 
-  const xml = \`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  \${urls.join("\n  ")}\n</urlset>\`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  ${urls.join("\n  ")}\n</urlset>`;
   return new Response(xml, {
     headers: { "Content-Type": "application/xml; charset=utf-8" },
   });
