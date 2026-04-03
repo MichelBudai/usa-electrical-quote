@@ -4,45 +4,27 @@ on:
     branches:
       - main
   workflow_dispatch: {}
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Install dependencies
-        run: npm ci
-      - name: Clean build dirs
-        run: rm -rf .next out
-      - name: Build (Next export)
+      - run: npm ci
+      - run: npx next build
         env:
           SITE_SLUG: electrical
-        run: npx next build
-      - name: Configure SSH
+      - name: Deploy to VPS
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          VPS_PASSWORD: ${{ secrets.VPS_PASSWORD }}
         run: |
-          if [ -z "${SSH_PRIVATE_KEY}" ]; then
-            echo "Missing GitHub Secret: VPS_SSH_PRIVATE_KEY."
-            exit 1
-          fi
-          mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
-          printf "%s\n" "${SSH_PRIVATE_KEY}" | tr -d '\r' > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H "${{ secrets.VPS_HOST }}" >> ~/.ssh/known_hosts
-      - name: Ensure remote dir exists
-        run: |
-          ssh -o StrictHostKeyChecking=yes "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}" "mkdir -p '/var/www/electrical-static'"
-      - name: Upload out/ via rsync
-        run: |
-          rsync -az --delete ./out/ "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/electrical-static/"
-      - name: Reload nginx
-        run: |
-          ssh "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}" "nginx -t && systemctl reload nginx"
+          sudo apt-get install -y sshpass
+          sshpass -p "${VPS_PASSWORD}" rsync -az --delete -e "ssh -o StrictHostKeyChecking=no" ./out/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/electrical-static/
+          sshpass -p "${VPS_PASSWORD}" ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} "nginx -t && systemctl reload nginx"
