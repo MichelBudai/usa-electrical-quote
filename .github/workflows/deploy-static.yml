@@ -21,6 +21,8 @@ jobs:
       - run: npx next build
         env:
           SITE_SLUG: electrical
+      - name: Generate split sitemaps
+        run: node generate-sitemaps-ci.js
       - name: Deploy to VPS
         env:
           VPS_PASSWORD: ${{ secrets.VPS_PASSWORD }}
